@@ -11,7 +11,7 @@
 
 function tabCreator(obj) {
     const tab = document.createElement('div');
-    tab.classList.add('div');
+    tab.classList.add('tab');
 
     tab.textContent = obj.topics;
 
